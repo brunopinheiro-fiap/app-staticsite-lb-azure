@@ -23,6 +23,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-    name     = "rg-staticsite-lb-tf-brunopinheiro"
+    name     = "rg-staticsite-lb-brunopinheiro"
     location = "brazilsouth"
 }
